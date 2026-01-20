@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "State your main question in 1–2 sentences. We are just using plain text here. For example Alcohol-associated liver disease is influenced by both genetic and environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate…"
+  },
+  {
+    "objectID": "proposal.html#research-question",
+    "href": "proposal.html#research-question",
+    "title": "Proposal",
+    "section": "",
+    "text": "State your main question in 1–2 sentences. We are just using plain text here. For example Alcohol-associated liver disease is influenced by both genetic and environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate…"
+  },
+  {
+    "objectID": "proposal.html#datasets",
+    "href": "proposal.html#datasets",
+    "title": "Proposal",
+    "section": "2 Dataset(s)",
+    "text": "2 Dataset(s)\n\nSource:\nSample size:\nKey variables:\nLicense/usage notes:"
+  },
+  {
+    "objectID": "proposal.html#planned-analysis",
+    "href": "proposal.html#planned-analysis",
+    "title": "Proposal",
+    "section": "3 Planned analysis",
+    "text": "3 Planned analysis\nDescribe your plan in bullets: - Cleaning/QC - Visualizations - Statistical/ML approach - How you’ll validate (train/test, CV, sensitivity checks, etc.)"
+  },
+  {
+    "objectID": "proposal.html#deliverables",
+    "href": "proposal.html#deliverables",
+    "title": "Proposal",
+    "section": "4 Deliverables",
+    "text": "4 Deliverables\n\nWebsite sections\nKey figures/tables\nAny optional stretch goals"
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "Results",
+    "section": "",
+    "text": "Add bullet points as you go."
+  },
+  {
+    "objectID": "results.html#key-findings-draft",
+    "href": "results.html#key-findings-draft",
+    "title": "Results",
+    "section": "",
+    "text": "Add bullet points as you go."
+  },
+  {
+    "objectID": "results.html#figures",
+    "href": "results.html#figures",
+    "title": "Results",
+    "section": "0.2 Figures",
+    "text": "0.2 Figures\nAdd figures as you generate them. Example:"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Name 1 — role (data cleaning, EDA, modeling, writing)\nName 2 — role\nName 3 — role\nName 4 — role"
+  },
+  {
+    "objectID": "team.html#members",
+    "href": "team.html#members",
+    "title": "Team",
+    "section": "",
+    "text": "Name 1 — role (data cleaning, EDA, modeling, writing)\nName 2 — role\nName 3 — role\nName 4 — role"
+  },
+  {
+    "objectID": "team.html#collaboration-rules-simple",
+    "href": "team.html#collaboration-rules-simple",
+    "title": "Team",
+    "section": "2 Collaboration rules (simple)",
+    "text": "2 Collaboration rules (simple)\n\nPull before you start work.\nCommit small changes with clear messages.\nOnly one person edits the same .qmd file at a time.\nUse Issues (optional) for tasks/bugs."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+  },
+  {
+    "objectID": "index.html#one-paragraph-summary",
+    "href": "index.html#one-paragraph-summary",
+    "title": "Project Title",
+    "section": "",
+    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+  },
+  {
+    "objectID": "index.html#project-roadmap-living",
+    "href": "index.html#project-roadmap-living",
+    "title": "Project Title",
+    "section": "2 Project roadmap (living)",
+    "text": "2 Project roadmap (living)\n\nFind dataset(s)\nDefine outcome + predictors / variables\nExploratory analysis + QC\nMethod 1 (required)\nMethod 2 (optional/extension)\nFinal figures + interpretation\nLimitations + ethics + reproducibility notes"
+  },
+  {
+    "objectID": "index.html#where-to-find-things",
+    "href": "index.html#where-to-find-things",
+    "title": "Project Title",
+    "section": "3 Where to find things",
+    "text": "3 Where to find things\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
+  }
+]

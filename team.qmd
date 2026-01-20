@@ -1,0 +1,15 @@
+---
+title: "Team"
+---
+
+## Members
+- Name 1 — role (data cleaning, EDA, modeling, writing)
+- Name 2 — role
+- Name 3 — role
+- Name 4 — role
+
+## Collaboration rules (simple)
+- Pull before you start work.
+- Commit small changes with clear messages.
+- Only one person edits the *same* `.qmd` file at a time.
+- Use Issues (optional) for tasks/bugs.

@@ -1,0 +1,25 @@
+---
+title: "Proposal"
+---
+
+## Research question
+State your main question in 1–2 sentences. We are just using plain text here. For example Alcohol-associated liver disease is influenced by both genetic and
+environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate...
+
+## Dataset(s)
+- Source:
+- Sample size:
+- Key variables:
+- License/usage notes:
+
+## Planned analysis
+Describe your plan in bullets:
+- Cleaning/QC
+- Visualizations
+- Statistical/ML approach
+- How you’ll validate (train/test, CV, sensitivity checks, etc.)
+
+## Deliverables
+- Website sections
+- Key figures/tables
+- Any optional stretch goals

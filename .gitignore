@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Quarto
+.quarto/
+_site/
+
+# Data (optional — comment out if you want to store small data)
+# data/*.csv
+# data/*.tsv
+# data/*.xlsx
+
+/.quarto/
+**/*.quarto_ipynb
