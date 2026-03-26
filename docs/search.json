@@ -79,28 +79,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project Title",
+    "title": "Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores",
     "section": "",
-    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+    "text": "Write 4–6 sentences describing: - Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production? - Hypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians. - A collection of 16s rDNA amplicon of human vegetarian - Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. - your approach (methods) - We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
   },
   {
     "objectID": "index.html#one-paragraph-summary",
     "href": "index.html#one-paragraph-summary",
-    "title": "Project Title",
+    "title": "Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores",
     "section": "",
-    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+    "text": "Write 4–6 sentences describing: - Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production? - Hypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians. - A collection of 16s rDNA amplicon of human vegetarian - Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. - your approach (methods) - We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
   },
   {
     "objectID": "index.html#project-roadmap-living",
     "href": "index.html#project-roadmap-living",
-    "title": "Project Title",
+    "title": "Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores",
     "section": "2 Project roadmap (living)",
-    "text": "2 Project roadmap (living)\n\nFind dataset(s)\nDefine outcome + predictors / variables\nExploratory analysis + QC\nMethod 1 (required)\nMethod 2 (optional/extension)\nFinal figures + interpretation\nLimitations + ethics + reproducibility notes"
+    "text": "2 Project roadmap (living)\n\nData acquistion through NCBI\nBuild hypothesis\nQuality control of sequences and ASV generation\nTaxonomic assignment\nData normalization\nDiversity analysis\nTMA-producing taxa analysis\nData visualization\nExecution of deliverables"
   },
   {
     "objectID": "index.html#where-to-find-things",
     "href": "index.html#where-to-find-things",
-    "title": "Project Title",
+    "title": "Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores",
     "section": "3 Where to find things",
     "text": "3 Where to find things\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
   }

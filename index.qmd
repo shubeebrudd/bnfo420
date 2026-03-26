@@ -2,7 +2,7 @@
 title: "Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores"
 subtitle: "BNFO 420 Capstone"
 ---
-
+test
 ## One-paragraph summary
 Write 4–6 sentences describing:
 - Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?
