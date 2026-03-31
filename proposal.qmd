@@ -1,25 +1,30 @@
 ---
-title: "Proposal"
+Proposal
 ---
 
 ## Research question
-State your main question in 1–2 sentences. We are just using plain text here. For example Alcohol-associated liver disease is influenced by both genetic and
-environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate...
+TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential.
 
 ## Dataset(s)
-- Source:
-- Sample size:
-- Key variables:
-- License/usage notes:
+- Source: NCBI
+- Sample size: 57
+- Key variables: Diets (Vegetarian and Omnivore)
+- License/usage notes: Downloaded from publicly available dataset on NCBI
 
 ## Planned analysis
 Describe your plan in bullets:
-- Cleaning/QC
-- Visualizations
-- Statistical/ML approach
-- How you’ll validate (train/test, CV, sensitivity checks, etc.)
+- Organize all 16S V3–V4 sequences (FASTQ/FASTA) from SRA
+- DADA2 learns sequencing error rates from dataset
+- Remove noise and correct sequencing errors
+- Collapse sequences into ASVs
+- Assign ASVs to known TMA-producing taxa using SILVA database
+- Convert raw counts to relative abundance
+- Generate table of sample summary and top 5 TMA-related taxa for each sample
+
 
 ## Deliverables
-- Website sections
-- Key figures/tables
-- Any optional stretch goals
+- Stacked bar plot: Microbial composition by diet group
+- Boxplot: Relative abundance of TMA-associated bacteria by diet
+- Shannon Plot: Within-sample diversity across diet groups
+- PCoA Plot: Community-level differences between diet groups
+
