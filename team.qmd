@@ -1,12 +1,12 @@
 ---
-title: "Team"
+Team 2
 ---
-
+## FILL IN ROLES (data cleaning, EDA, modeling, writing)
 ## Members
-- Name 1 — role (data cleaning, EDA, modeling, writing)
-- Name 2 — role
-- Name 3 — role
-- Name 4 — role
+- Name 1 — Divya Spurthi Amancherla 
+- Name 2 — Niya Kedir
+- Name 3 — Shubeeb Rudd
+- Name 4 — Sean Yoo
 
 ## Collaboration rules (simple)
 - Pull before you start work.
