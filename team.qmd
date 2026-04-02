@@ -3,10 +3,10 @@ Team 2
 ---
 ## FILL IN ROLES (data cleaning, EDA, modeling, writing)
 ## Members
-- Name 1 — Divya Spurthi Amancherla 
-- Name 2 — Niya Kedir
-- Name 3 — Shubeeb Rudd
-- Name 4 — Sean Yoo
+- Name 1 — Divya Spurthi Amancherla - data cleaning, EDA, data modeling
+- Name 2 — Niya Kedir - Final Figure Generation
+- Name 3 — Shubeeb Rudd - Final Figure Generation
+- Name 4 — Sean Yoo - Final Figure Generation
 
 ## Collaboration rules (simple)
 - Pull before you start work.
