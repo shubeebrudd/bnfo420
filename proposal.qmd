@@ -27,4 +27,6 @@ Describe your plan in bullets:
 - Boxplot: Relative abundance of TMA-associated bacteria by diet
 - Shannon Plot: Within-sample diversity across diet groups
 - PCoA Plot: Community-level differences between diet groups
+- Sample Summary: Sample metadata and group assignments
+- TMA-Associated Bacteria: Abundance of TMA-related taxa across samples
 
