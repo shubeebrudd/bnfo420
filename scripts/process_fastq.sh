@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # =======================================
-# Bash: Download FASTQ Files Using wget
+# Bash: Download FASTQ Files
 # =======================================
 
-# Directory for storing FASTQ files
+# Create directory for storing FASTQ files
 mkdir -p /home/user/fastq_files
 cd /home/user/fastq_files
 
