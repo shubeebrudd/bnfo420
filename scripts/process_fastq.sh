@@ -1,3 +1,7 @@
+#01_ loading/cleaning
+#02_ EDA
+#03_ modeling
+
 #!/bin/bash
 
 # =======================================
