@@ -152,27 +152,30 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-question" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="research-question"><span class="header-section-number">1</span> Research question</h2>
-<p>State your main question in 1–2 sentences. We are just using plain text here. For example Alcohol-associated liver disease is influenced by both genetic and environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate…</p>
+<p>TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential.</p>
 </section>
 <section id="datasets" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="datasets"><span class="header-section-number">2</span> Dataset(s)</h2>
 <ul>
-<li>Source:</li>
-<li>Sample size:</li>
-<li>Key variables:</li>
-<li>License/usage notes:</li>
+<li>Source: NCBI</li>
+<li>Sample size: 57</li>
+<li>Key variables: Diets (Vegetarian and Omnivore)</li>
+<li>License/usage notes: Downloaded from publicly available dataset on NCBI</li>
 </ul>
 </section>
 <section id="planned-analysis" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="planned-analysis"><span class="header-section-number">3</span> Planned analysis</h2>
-<p>Describe your plan in bullets: - Cleaning/QC - Visualizations - Statistical/ML approach - How you’ll validate (train/test, CV, sensitivity checks, etc.)</p>
+<p>Describe your plan in bullets: - Organize all 16S V3–V4 sequences (FASTQ/FASTA) from SRA - DADA2 learns sequencing error rates from dataset - Remove noise and correct sequencing errors - Collapse sequences into ASVs - Assign ASVs to known TMA-producing taxa using SILVA database - Convert raw counts to relative abundance - Generate table of sample summary and top 5 TMA-related taxa for each sample</p>
 </section>
 <section id="deliverables" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="deliverables"><span class="header-section-number">4</span> Deliverables</h2>
 <ul>
-<li>Website sections</li>
-<li>Key figures/tables</li>
-<li>Any optional stretch goals</li>
+<li>Stacked bar plot: Microbial composition by diet group</li>
+<li>Boxplot: Relative abundance of TMA-associated bacteria by diet</li>
+<li>Shannon Plot: Within-sample diversity across diet groups</li>
+<li>PCoA Plot: Community-level differences between diet groups</li>
+<li>Sample Summary: Sample metadata and group assignments</li>
+<li>TMA-Associated Bacteria: Abundance of TMA-related taxa across samples</li>
 </ul>
 
 

@@ -1,6 +1,6 @@
 ---
-**Differences in Gut Microbiota Composition and Relative Abundance of TMA-Producing Bacterial Taxa in Vegetarians v. Omnivores**
-*BNFO 420 Capstone*
+title: "**Differences in Gut Microbiota Composition...**"
+author: "BNFO 420 Capstone"
 ---
 
 ## Project Summary
@@ -26,3 +26,4 @@ Our data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is ob
 - **Data notes:** `data/README.md`
 - **Figures:** `figures/`
 - **Citations:** `references.bib`
+

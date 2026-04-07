@@ -1,5 +1,5 @@
 ---
-Team 2
+title: "Team 2"
 ---
 ## FILL IN ROLES (data cleaning, EDA, modeling, writing)
 ## Members
