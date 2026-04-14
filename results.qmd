@@ -12,4 +12,4 @@ Add figures as you generate them. Example:
 # If using R, put code here (optional)
 
 # If using Python, put code here (optional)
-
+![Test](figures/Bar_Plot_BNFO.png)
