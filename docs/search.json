@@ -52,8 +52,8 @@
     "objectID": "results.html#figures",
     "href": "results.html#figures",
     "title": "Results",
-    "section": "0.2 Figures",
-    "text": "0.2 Figures\nAdd figures as you generate them. Example:"
+    "section": "2 Figures",
+    "text": "2 Figures\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6"
   },
   {
     "objectID": "team.html#members",
@@ -96,5 +96,12 @@
     "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
     "section": "3 Where to find everything",
     "text": "3 Where to find everything\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
+  },
+  {
+    "objectID": "results.html#key-findings",
+    "href": "results.html#key-findings",
+    "title": "Results",
+    "section": "",
+    "text": "Add bullet points as you go."
   }
 ]

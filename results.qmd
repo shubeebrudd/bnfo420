@@ -7,8 +7,13 @@ Add bullet points as you go.
 
 ## Figures
 ![Figure 1](figures/Bar_Plot_BNFO.png)
+
 ![Figure 2](figures/PCoA_Plot_BNFO.png)
+
 ![Figure 3](figures/Shannon Diversity Plot.png)
+
 ![Figure 4](figures/Shannon Diversity Wilcoxon Test.png)
+
 ![Figure 5](figures/tma_boxplot_log.jpeg)
+
 ![Figure 6](figures/tma_presence_bar.jpeg)
