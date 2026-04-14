@@ -1,38 +1,31 @@
 [
   {
-    "objectID": "proposal.html",
-    "href": "proposal.html",
-    "title": "Proposal",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
     "section": "",
-    "text": "TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential."
+    "text": "Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?\nHypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.\nOur data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. We conducted quality control and generation of ASV once we acquired our data, and then assigned taxonomies to each. This was followed by data normalization, diversity analysis, TMA-producing taxa analysis, and visualization of our data. We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
   },
   {
-    "objectID": "proposal.html#research-question",
-    "href": "proposal.html#research-question",
-    "title": "Proposal",
+    "objectID": "index.html#project-summary",
+    "href": "index.html#project-summary",
+    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
     "section": "",
-    "text": "TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential."
+    "text": "Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?\nHypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.\nOur data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. We conducted quality control and generation of ASV once we acquired our data, and then assigned taxonomies to each. This was followed by data normalization, diversity analysis, TMA-producing taxa analysis, and visualization of our data. We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
   },
   {
-    "objectID": "proposal.html#datasets",
-    "href": "proposal.html#datasets",
-    "title": "Proposal",
-    "section": "2 Dataset(s)",
-    "text": "2 Dataset(s)\n\nSource: NCBI\nSample size: 57\nKey variables: Diets (Vegetarian and Omnivore)\nLicense/usage notes: Downloaded from publicly available dataset on NCBI"
+    "objectID": "index.html#project-roadmap",
+    "href": "index.html#project-roadmap",
+    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
+    "section": "2 Project Roadmap",
+    "text": "2 Project Roadmap\n\nData acquistion through NCBI\nBuild hypothesis\nQuality control of sequences and ASV generation\nTaxonomic assignment\nData normalization\nDiversity analysis\nTMA-producing taxa analysis\nData visualization\nExecution of deliverables"
   },
   {
-    "objectID": "proposal.html#planned-analysis",
-    "href": "proposal.html#planned-analysis",
-    "title": "Proposal",
-    "section": "3 Planned analysis",
-    "text": "3 Planned analysis\nDescribe your plan in bullets: - Organize all 16S V3–V4 sequences (FASTQ/FASTA) from SRA - DADA2 learns sequencing error rates from dataset - Remove noise and correct sequencing errors - Collapse sequences into ASVs - Assign ASVs to known TMA-producing taxa using SILVA database - Convert raw counts to relative abundance - Generate table of sample summary and top 5 TMA-related taxa for each sample"
-  },
-  {
-    "objectID": "proposal.html#deliverables",
-    "href": "proposal.html#deliverables",
-    "title": "Proposal",
-    "section": "4 Deliverables",
-    "text": "4 Deliverables\n\nStacked bar plot: Microbial composition by diet group\nBoxplot: Relative abundance of TMA-associated bacteria by diet\nShannon Plot: Within-sample diversity across diet groups\nPCoA Plot: Community-level differences between diet groups\nSample Summary: Sample metadata and group assignments\nTMA-Associated Bacteria: Abundance of TMA-related taxa across samples"
+    "objectID": "index.html#where-to-find-everything",
+    "href": "index.html#where-to-find-everything",
+    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
+    "section": "3 Where to find everything",
+    "text": "3 Where to find everything\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
   },
   {
     "objectID": "results.html",
@@ -70,31 +63,38 @@
     "text": "3 Collaboration rules (simple)\n\nPull before you start work.\nCommit small changes with clear messages.\nOnly one person edits the same .qmd file at a time.\nUse Issues (optional) for tasks/bugs."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Proposal",
     "section": "",
-    "text": "Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?\nHypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.\nOur data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. We conducted quality control and generation of ASV once we acquired our data, and then assigned taxonomies to each. This was followed by data normalization, diversity analysis, TMA-producing taxa analysis, and visualization of our data. We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
+    "text": "TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential."
   },
   {
-    "objectID": "index.html#project-summary",
-    "href": "index.html#project-summary",
-    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
+    "objectID": "proposal.html#research-question",
+    "href": "proposal.html#research-question",
+    "title": "Proposal",
     "section": "",
-    "text": "Research Question: Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?\nHypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.\nOur data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. We conducted quality control and generation of ASV once we acquired our data, and then assigned taxonomies to each. This was followed by data normalization, diversity analysis, TMA-producing taxa analysis, and visualization of our data. We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results."
+    "text": "TMAO is a metabolite know to increase risk of cardiovascular disease and certain gut bacteria are known to be TMA-producers, affecting levels of TMAO in individuals based on diet. In this project, we analyze publicly available 16s rRNA data to determine the relative abundances of TMA-producing bacteria in those consuming vegetarian diets and those consuming omnivorous diets to determine differences and risk potential."
   },
   {
-    "objectID": "index.html#project-roadmap",
-    "href": "index.html#project-roadmap",
-    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
-    "section": "2 Project Roadmap",
-    "text": "2 Project Roadmap\n\nData acquistion through NCBI\nBuild hypothesis\nQuality control of sequences and ASV generation\nTaxonomic assignment\nData normalization\nDiversity analysis\nTMA-producing taxa analysis\nData visualization\nExecution of deliverables"
+    "objectID": "proposal.html#datasets",
+    "href": "proposal.html#datasets",
+    "title": "Proposal",
+    "section": "2 Dataset(s)",
+    "text": "2 Dataset(s)\n\nSource: NCBI\nSample size: 57\nKey variables: Diets (Vegetarian and Omnivore)\nLicense/usage notes: Downloaded from publicly available dataset on NCBI"
   },
   {
-    "objectID": "index.html#where-to-find-everything",
-    "href": "index.html#where-to-find-everything",
-    "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
-    "section": "3 Where to find everything",
-    "text": "3 Where to find everything\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
+    "objectID": "proposal.html#planned-analysis",
+    "href": "proposal.html#planned-analysis",
+    "title": "Proposal",
+    "section": "3 Planned analysis",
+    "text": "3 Planned analysis\nDescribe your plan in bullets: - Organize all 16S V3–V4 sequences (FASTQ/FASTA) from SRA - DADA2 learns sequencing error rates from dataset - Remove noise and correct sequencing errors - Collapse sequences into ASVs - Assign ASVs to known TMA-producing taxa using SILVA database - Convert raw counts to relative abundance - Generate table of sample summary and top 5 TMA-related taxa for each sample"
+  },
+  {
+    "objectID": "proposal.html#deliverables",
+    "href": "proposal.html#deliverables",
+    "title": "Proposal",
+    "section": "4 Deliverables",
+    "text": "4 Deliverables\n\nStacked bar plot: Microbial composition by diet group\nBoxplot: Relative abundance of TMA-associated bacteria by diet\nShannon Plot: Within-sample diversity across diet groups\nPCoA Plot: Community-level differences between diet groups\nSample Summary: Sample metadata and group assignments\nTMA-Associated Bacteria: Abundance of TMA-related taxa across samples"
   }
 ]
