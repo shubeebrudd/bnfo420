@@ -23,10 +23,9 @@ Describe your plan in bullets:
 
 
 ## Deliverables
+- PCoA Plot: Community-level differences between diet groups 
 - Stacked bar plot: Microbial composition by diet group
+- Shannon Diversity Plot: Within-sample diversity across diet groups
 - Boxplot: Relative abundance of TMA-associated bacteria by diet
-- Shannon Plot: Within-sample diversity across diet groups
-- PCoA Plot: Community-level differences between diet groups
-- Sample Summary: Sample metadata and group assignments
-- TMA-Associated Bacteria: Abundance of TMA-related taxa across samples
+- Bar Chart: Absence v. Presence of TMA-associated bacteria by diet
 
