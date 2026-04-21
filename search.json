@@ -32,14 +32,14 @@
     "href": "results.html",
     "title": "Results",
     "section": "",
-    "text": "Add bullet points as you go."
+    "text": "Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions"
   },
   {
     "objectID": "results.html#key-findings",
     "href": "results.html#key-findings",
     "title": "Results",
     "section": "",
-    "text": "Add bullet points as you go."
+    "text": "Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions"
   },
   {
     "objectID": "results.html#figures",
@@ -95,6 +95,6 @@
     "href": "proposal.html#deliverables",
     "title": "Proposal",
     "section": "4 Deliverables",
-    "text": "4 Deliverables\n\nStacked bar plot: Microbial composition by diet group\nBoxplot: Relative abundance of TMA-associated bacteria by diet\nShannon Plot: Within-sample diversity across diet groups\nPCoA Plot: Community-level differences between diet groups\nSample Summary: Sample metadata and group assignments\nTMA-Associated Bacteria: Abundance of TMA-related taxa across samples"
+    "text": "4 Deliverables\n\nPCoA Plot: Community-level differences between diet groups\nStacked bar plot: Microbial composition by diet group\nShannon Diversity Plot: Within-sample diversity across diet groups\nBoxplot: Relative abundance of TMA-associated bacteria by diet\nBar Chart: Absence v. Presence of TMA-associated bacteria by diet"
   }
 ]
