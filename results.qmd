@@ -6,9 +6,10 @@ title: "Results"
 Add bullet points as you go.
 
 ## Figures
-![Figure 1](figures/Bar_Plot_BNFO.png)
 
-![Figure 2](figures/PCoA_Plot_BNFO.png)
+![Figure 1](figures/PCoA_Plot_BNFO.png)
+
+![Figure 2](figures/Bar_Plot_BNFO.png)
 
 ![Figure 3](figures/Shannon Diversity Plot.png)
 
