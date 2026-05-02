@@ -58,47 +58,65 @@ The PCoA plot (Fig. 2.) addresses whether or not the overall gut microbiome comp
 
 ::: {#fig-2}
 
-![PCoA plot showing diversity between diet groups](figures/PCoA_Plot_BNFO.png)
+![](figures/PCoA_Plot_BNFO.png)
 
-![Adonis test results for community composition differences](figures/AdonisTest.png)
+PCoA plot showing beta diversity patterns between omnivore and vegetarian gut microbiome samples.
 
-Beta diversity analysis of gut microbiota. The PCoA plot illustrates differences in microbial community composition, and the Adonis test evaluates statistical significance between dietary groups.
+:::
+
+::: {#fig-3}
+
+![](figures/AdonisTest.png)
+
+Adonis test results evaluating differences in microbiome composition between diet groups.
 
 :::
 
 An Adonis Test was conducted, showcasing an f-value representing the differences between two diet groups in relation to the variation within each diet group. Additionally, a p-value was determined to address the statistical significance between diet groups based on the microbiome composition of omnivores and vegetarians. In addition to, determining if the f-value is significant enough to incorporate in our statistical analysis. The Adonis Test resulted in a p-value of 0.95 displaying a value much larger than the 0.05 threshold, determining that the f-value of 56.12 and PCoA plot would display no statistical significance.  
 
-The Stacked Bar Plot (Fig 3.) displays the mean relative abundance of the top three genera, Desulfovibrio, Klebsiella, Proteus, and their estimated differences between both diet groups. As well as error bars representing the standard error of the mean relative abundance for each genera.
+The Stacked Bar Plot (Fig 4.) displays the mean relative abundance of the top three genera, Desulfovibrio, Klebsiella, Proteus, and their estimated differences between both diet groups. As well as error bars representing the standard error of the mean relative abundance for each genera.
 
-::: {#fig-3}
+::: {#fig-4}
 
-![Mean relative abundance bar plot of TMA-producing genera](figures/Bar_Plot_BNFO.png)
+![](figures/Bar_Plot_BNFO.png)
 
-![Wilcoxon test results comparing genera abundance](figures/StackedGeneraWilcoxonTest.png)
+Mean relative abundance of selected TMA-producing bacterial genera between omnivore and vegetarian groups.
 
-Relative abundance of key TMA-producing bacterial genera and statistical comparison between omnivores and vegetarians.
+:::
+
+::: {#fig-5}
+
+![](figures/StackedGeneraWilcoxonTest.png)
+
+Wilcoxon test results comparing TMA-producing genera abundance between diet groups.
 
 :::
 
 A Wilcoxon test produced p-values of 0.288 and 0.2864 for Desulfovibrio and Klebsiella, respectively. Neither of these values were statistically significant, as both p-values were much larger than a 0.05 threshold. Proteus was disregarded in the statistical analysis for this plot as its levels were negligible, due to its average mean relative abundance ranging from 0-1. Wilcoxon was preferred over a typical t-test to account for the abnormal distribution of our data.
 
-The Alpha Diversity Plot (Fig. 4.), generated with a Shannon Index, intends to assess whether diet has an effect on microbiome diversity, and uses the aforementioned index to measure within the sample diversity. The median of the omnivore diet is much higher than the vegetarian, with high variation in outlier number and location. Both diets possess a number of samples at 0. 
+The Alpha Diversity Plot (Fig. 6.), generated with a Shannon Index, intends to assess whether diet has an effect on microbiome diversity, and uses the aforementioned index to measure within the sample diversity. The median of the omnivore diet is much higher than the vegetarian, with high variation in outlier number and location. Both diets possess a number of samples at 0. 
 
-::: {#fig-4}
+::: {#fig-6}
 
-![Shannon diversity index comparing alpha diversity](figures/Shannon Diversity Plot.png)
+![](figures/Shannon Diversity Plot.png)
 
-![Wilcoxon test results for Shannon diversity](figures/Shannon%20Diversity%20Wilcoxon%20Test.png)
+Shannon diversity index comparing alpha diversity between omnivore and vegetarian gut microbiome samples.
 
-Alpha diversity analysis using the Shannon index and corresponding statistical comparison between dietary groups.
+:::
+
+::: {#fig-7}
+
+![](figures/Shannon%20Diversity%20Wilcoxon%20Test.png)
+
+Wilcoxon rank-sum test results for Shannon diversity between dietary groups.
 
 :::
 
 A Wilcoxon rank-sum test provided a value of 0.1556, indicating that diet does not significantly affect overall microbial diversity. 
 
-The boxplot (Fig. 5.) intends to compare the relative abundance of TMA-associated bacteria by diet. The median of the omnivore diet is larger than the vegetarian diet, but the general spread of either diet appears similar with clustering around the median, and a number of samples at 0. It showcases high variability and overlapping distribution. However, a Wilcoxon test provides a value of 0.1318, indicating a lack of statistical significance. 
+The boxplot (Fig. 8.) intends to compare the relative abundance of TMA-associated bacteria by diet. The median of the omnivore diet is larger than the vegetarian diet, but the general spread of either diet appears similar with clustering around the median, and a number of samples at 0. It showcases high variability and overlapping distribution. However, a Wilcoxon test provides a value of 0.1318, indicating a lack of statistical significance. 
 
-::: {#fig-5}
+::: {#fig-8}
 
 ![](figures/tma_boxplot_log.jpeg)
 
@@ -108,9 +126,9 @@ Distribution of TMA-associated bacterial abundance across dietary groups, displa
 
 Distribution of TMA-associated bacterial abundance across dietary groups, displayed on a log scale.
 
-Finally, the bar chart (Fig. 6.) displays the absence vs. presence of TMA-associated bacteria by diet. It compares each diet’s proportions, which show mixed absence and presence. The associated bacteria is not consistent. A Chi-squared test with Yates’ continuity correction provided a p-value of 0.2493, which was not statistically significant. 
+Finally, the bar chart (Fig. 9.) displays the absence vs. presence of TMA-associated bacteria by diet. It compares each diet’s proportions, which show mixed absence and presence. The associated bacteria is not consistent. A Chi-squared test with Yates’ continuity correction provided a p-value of 0.2493, which was not statistically significant. 
 
-::: {#fig-6}
+::: {#fig-9}
 
 ![](figures/tma_presence_bar.jpeg)
 

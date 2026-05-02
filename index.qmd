@@ -9,7 +9,7 @@ Research Question: Do vegetarians and omnivores differ in gut microbiota composi
 
 Hypothesis: Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.
 
-Rationale: The intention of this projectis to understand how diet influences the composition of the human gut microbiota and observe how this may play a role in health implications for healthy populations. This data could potentially inform dietary interventions and considerations in relation to disease risk.
+Rationale: The intention of this project is to understand how diet influences the composition of the human gut microbiota and observe how this may play a role in health implications for healthy populations. This data could potentially inform dietary interventions and considerations in relation to disease risk.
 
 ## Where to find everything
 - **Scripts:** `scripts/`
