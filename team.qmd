@@ -1,15 +1,11 @@
 ---
-title: "Team 2"
+title: "VCU Bioinformatics Senior Capstone 2026 - Team 2"
+number-sections: false
 ---
-## FILL IN ROLES (data cleaning, EDA, modeling, writing)
-## Members
-- Name 1 — Divya Spurthi Amancherla - data cleaning, EDA, data modeling
-- Name 2 — Niya Kedir - Final Figure Generation
-- Name 3 — Shubeeb Rudd - data acquisition, writing, final figure generation
-- Name 4 — Sean Yoo - Final Figure Generation
+![Our Team at the Inaugural VCU School of Life Sciences and Sustainability Research Day (left to right): Niya, Divya, Shubeeb, Sean](figures/TeamPhoto.JPG)
 
-## Collaboration rules (simple)
-- Pull before you start work.
-- Commit small changes with clear messages.
-- Only one person edits the *same* `.qmd` file at a time.
-- Use Issues (optional) for tasks/bugs.
+## Members
+- Divya Spurthi Amancherla: EDA, data cleaning, data modeling
+- Shubeeb Rudd: Github & Quarto, data aquisition, final figure generation
+- Niya Kedir: supplemental research,  writing, final figure generation
+- Sean Yoo: supplemental data analysis,  writing, final figure generation

@@ -10,10 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: proposal.qmd
-        text: Proposal
-      - href: results.qmd
-        text: Results
+      - href: overview.qmd
+        text: Overview
+      - href: research.qmd
+        text: Research
       - href: team.qmd
         text: Team
   page-footer:

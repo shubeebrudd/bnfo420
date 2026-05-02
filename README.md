@@ -5,7 +5,7 @@
 
 ## Repo structure
 - `index.qmd` = homepage
-- `proposal.qmd` = proposal
+- `overview.qmd` = overview
 - `results.qmd` = results + figures
 - `scripts/` = analysis scripts
 - `data/` = small data only + data notes
