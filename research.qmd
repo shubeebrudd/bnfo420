@@ -12,23 +12,23 @@ The human gut microbiome plays an essential role in human health, with its compo
 <details>
 <summary><strong>Introduction</strong></summary>
 
-The human gut microbiome contains many different microorganisms, each playing an important part in maintaining health. These microorganisms are vital to a wide range of biological functions including metabolism, immune system regulation, nutrient digestion, and protection against pathogenic organisms (Turnbaugh et al., 2007; Human Microbiome Project Consortium, 2012). They also play a part in the breakdown of dietary substances that the body is unable to do on its own. This allows for the production of metabolites that can either benefit or harm the host. When the overall balance between different microbial communities is disrupted, this dysbiosis can cause a variety of metabolic health disorders such as diabetes, obesity, and cardiovascular disease (Clemente et al., 2012; Lynch and Pedersen, 2016). Research into gut dysbiosis has continued in efforts to understand the different factors that affect the microbiome.
+The human gut microbiome contains many different microorganisms, each playing an important part in maintaining health. These microorganisms are vital to a wide range of biological functions including metabolism, immune system regulation, nutrient digestion, and protection against pathogenic organisms [@turnbaugh2006; @hmp2012]. They also play a part in the breakdown of dietary substances that the body is unable to do on its own. This allows for the production of metabolites that can either benefit or harm the host. When the overall balance between different microbial communities is disrupted, this dysbiosis can cause a variety of metabolic health disorders such as diabetes, obesity, and cardiovascular disease [@clemente2012; @lynch2016]. Research into gut dysbiosis has continued in efforts to understand the different factors that affect the microbiome.
 
-Diet has been shown to be one of the most important factors shaping the gut microbiome since it can be easily modifiable. The overall gut microbial composition and its functions can be affected by dietary habits, regardless of short-term or long- term changes (David et al., 2014; Sonnenburg and Bäckhed, 2016). Omnivore diets typically encourage microbial taxa that are linked to fat metabolism as well as protein. In comparison, however, vegetarian diets seem to be linked in support of bacteria that are fiber-degrading in addition to positive metabolites. (De Filippo et al., 2010; Wu et al., 2011). These variations not only play a role in the microbial diversity, but also its functional capacity and the production of metabolites that influence human health.
+Diet has been shown to be one of the most important factors shaping the gut microbiome since it can be easily modifiable. The overall gut microbial composition and its functions can be affected by dietary habits, regardless of short-term or long- term changes [@david2014; @sonnenburg2016]. Omnivore diets typically encourage microbial taxa that are linked to fat metabolism as well as protein. In comparison, however, vegetarian diets seem to be linked in support of bacteria that are fiber-degrading in addition to positive metabolites. [@defilippo2010; @wu2011]. These variations not only play a role in the microbial diversity, but also its functional capacity and the production of metabolites that influence human health.
 
-One such metabolite is trimethylamine-N-oxide (TMAO). High levels of TMAO are known to be associated with increased risk of cardiovascular disease and other similar diseases (Tang et al., 2013). Elevated TMAO has been found to promote cholesterol deposits in the arteries and increase foam cell formation of macrophages, leading to atherosclerosis. It also plays a role in blocking pathways that prevent plaque buildup, exacerbating the issue.
+One such metabolite is trimethylamine-N-oxide (TMAO). High levels of TMAO are known to be associated with increased risk of cardiovascular disease and other similar diseases [@tang2013]. Elevated TMAO has been found to promote cholesterol deposits in the arteries and increase foam cell formation of macrophages, leading to atherosclerosis. It also plays a role in blocking pathways that prevent plaque buildup, exacerbating the issue.
 
-TMAO is formed when carnitine, choline, and phosphatidylcholine compounds, typically found in animal-based products, are metabolized in the body (Wang et al., 2011). Research has shown that the role of gut microbiota in the formation of TMAO is obligatory. Omnivore diets, especially those rich in red meat and animal-based products have higher levels of L-carnitine and choline which are efficiently converted into TMA in the gut. In contrast, vegetarian and vegan diets contain lower levels of L-carnitine and choline and therefore lower TMA formation. Once TMA is produced, it reaches the liver through the bloodstream where it is oxidized into TMAO. These dietary compound differences play a significant role in metabolic health and disease and highlight the importance of gut microbiome composition in predicting CVD risk (Koeth et al., 2013).
+TMAO is formed when carnitine, choline, and phosphatidylcholine compounds, typically found in animal-based products, are metabolized in the body [@wang2011]. Research has shown that the role of gut microbiota in the formation of TMAO is obligatory. Omnivore diets, especially those rich in red meat and animal-based products have higher levels of L-carnitine and choline which are efficiently converted into TMA in the gut. In contrast, vegetarian and vegan diets contain lower levels of L-carnitine and choline and therefore lower TMA formation. Once TMA is produced, it reaches the liver through the bloodstream where it is oxidized into TMAO. These dietary compound differences play a significant role in metabolic health and disease and highlight the importance of gut microbiome composition in predicting CVD risk [@koeth2013].
 
-Previous research has demonstrated that several bacterial genes such as Desulfovibrio, Proteus, and Klebsiella play a part in TMA production (Zhu et al., 2016). More specifically, the cutC/cutD gene cluster was found primarily in Proteobacteria and Firmicutes (mainly Clostridia), and is involved in the conversion of choline to TMA. The cntA/cntB gene cluster, however, was most commonly found in Escherichia, Acinetobacter, and Klebsiella microbial groups and is involved in conversion of carnitine into TMA (Rath et al., 2017) . These findings indicate that these genes are present in a phylogenetically diverse set of bacteria that all contribute to metabolizing TMA precursors into TMA. Each type of diet results in varying levels and activity of these bacteria, further suggesting that dietary differences can shape and influence different microbial compositions connected to TMA metabolism. Studying the abundance of these bacteria in varying diet groups can provide insight into disease risk and potential therapeutic and dietary interventions.
+Previous research has demonstrated that several bacterial genes such as Desulfovibrio, Proteus, and Klebsiella play a part in TMA production [@zhu2014]. More specifically, the cutC/cutD gene cluster was found primarily in Proteobacteria and Firmicutes (mainly Clostridia), and is involved in the conversion of choline to TMA. The cntA/cntB gene cluster, however, was most commonly found in Escherichia, Acinetobacter, and Klebsiella microbial groups and is involved in conversion of carnitine into TMA [@rath2017] . These findings indicate that these genes are present in a phylogenetically diverse set of bacteria that all contribute to metabolizing TMA precursors into TMA. Each type of diet results in varying levels and activity of these bacteria, further suggesting that dietary differences can shape and influence different microbial compositions connected to TMA metabolism. Studying the abundance of these bacteria in varying diet groups can provide insight into disease risk and potential therapeutic and dietary interventions.
 
-16S rRNA gene sequencing is a commonly used method to study these conserved microbial communities (Caporaso et al., 2011). Through this technique, scientists can not only identify the bacterial taxa that exist, but also estimate the relative abundance of the taxa within a sample. This data is then taken and converted into amplicon sequence variants (ASVs), which allows for much more detailed depictions in comparison to operational taxonomic units (OTUs) (Callahan et al., 2016). This is because ASVs are generated through denoising approaches such as DADA2 in order to correct sequencing errors and distinguish between biologically meaningful data and sequencing noise. This improves downstream functional inference and accuracy of microbial profiling (Narayan et al., 2020) .
+16S rRNA gene sequencing is a commonly used method to study these conserved microbial communities [@caporaso2011]. Through this technique, scientists can not only identify the bacterial taxa that exist, but also estimate the relative abundance of the taxa within a sample. This data is then taken and converted into amplicon sequence variants (ASVs), which allows for much more detailed depictions in comparison to operational taxonomic units (OTUs) [@callahan2016]. This is because ASVs are generated through denoising approaches such as DADA2 in order to correct sequencing errors and distinguish between biologically meaningful data and sequencing noise. This improves downstream functional inference and accuracy of microbial profiling [@narayan2020] .
 
-Alongside being able to identify particular microbial taxa, there are a variety of tools that are utilized in order to measure diversity in addition to assessing the variation between microbial communities. One such bioinformatics tool is Alpha diversity metrics, such as the Shannon index, used to study the distribution and richness of species within a sample. Beta diversity metrics, such as Bray-Curtis dissimilarity, is utilized to assess the differences that exist between microbial communities and is typically visualized through a PCoA (Lozupone and Knight, 2005). Together, these methods allow for a complete view of microbial variation both individually and at the group level. These analytical approaches allow researchers to compare microbial communities between healthy and disease states to identify associations between gut microbiota and metabolic disease.
+Alongside being able to identify particular microbial taxa, there are a variety of tools that are utilized in order to measure diversity in addition to assessing the variation between microbial communities. One such bioinformatics tool is Alpha diversity metrics, such as the Shannon index, used to study the distribution and richness of species within a sample. Beta diversity metrics, such as Bray-Curtis dissimilarity, is utilized to assess the differences that exist between microbial communities and is typically visualized through a PCoA [@lozupone2005]. Together, these methods allow for a complete view of microbial variation both individually and at the group level. These analytical approaches allow researchers to compare microbial communities between healthy and disease states to identify associations between gut microbiota and metabolic disease.
 
 The link between the human gut microbiome and metabolic disease has been widely studied and established in previous research. Studies in both humans and animal models have shown that microbial differences exist in healthy versus metabolic disease states. Elevated TMAO levels have shown increased inflammation and plaque buildup, acting as a reliable indicator of cardiovascular disease and events. Researchers have begun to explore various therapeutic options, including dietary changes, addition of probiotics, and fecal microbiota transplantation to mitigate these health risks. 
 
-However, several gaps still remain in this field of research. Firstly, there is limited human-based microbiome research. Human microbiomes are highly variable which can affect previously generalized findings. Recent research suggests that TMAO production varies significantly between individuals, and that dietary classification alone may not fully predict TMAO-producing ability, highlighting the importance of considering inter-individual variation in gut microbial functional capacity (Wu W et al., 2019; Talmor-Barkan & Kornowski, 2017). In addition, microbiome differences have been observed in healthy and diseased states and are highly individualized, suggesting that dietary patterns may not fully explain the observed cartoon between individuals (Johnson et al., 2019). There is limited understanding of which specific bacterial taxa are involved in disease mechanisms. Furthermore, the extent to which long-term dietary patterns influence the abundance of these functionally relevant microbes remains unclear (Talmor-Barkan & Kornowski, 2017). 
+However, several gaps still remain in this field of research. Firstly, there is limited human-based microbiome research. Human microbiomes are highly variable which can affect previously generalized findings. Recent research suggests that TMAO production varies significantly between individuals, and that dietary classification alone may not fully predict TMAO-producing ability, highlighting the importance of considering inter-individual variation in gut microbial functional capacity [@wu2020; @talmor2017]. In addition, microbiome differences have been observed in healthy and diseased states and are highly individualized, suggesting that dietary patterns may not fully explain the observed cartoon between individuals [@johnson2019]. There is limited understanding of which specific bacterial taxa are involved in disease mechanisms. Furthermore, the extent to which long-term dietary patterns influence the abundance of these functionally relevant microbes remains unclear [@talmor2017]. 
 
 This research project aims to address these gaps by examining whether vegetarian and omnivore diets in healthy patients differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with TMA production. By linking dietary patterns to microbial composition and TMA production, this study seeks to provide a more detailed understanding of how diet both directly and indirectly influences cardiovascular disease risk in healthy adult populations.
 
@@ -146,88 +146,4 @@ Based on our findings, future research should prioritize studies with larger sam
 
 </details>
 
-<details>
-<summary><strong>Citations</strong></summary>
-Callahan, B. J., McMurdie, P. J., Rosen, M. J., Han, A. W., Johnson, A. J. A., & Holmes, S. P. 
-(2016). DADA2: High-resolution sample inference from Illumina amplicon data. Nature 
-Methods, 13(7), 581–583. https://doi.org/10.1038/nmeth.3869
-
-
-Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Lozupone, C. A., Turnbaugh, P. 
-J., Fierer, N., & Knight, R. (2010). Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample. Proceedings of the National Academy of Sciences, 108(Supplement_1), 4516–4522. https://doi.org/10.1073/pnas.1000080107‌
-
-
-Clemente, Jose C., Ursell, Luke K., Parfrey, L., & Knight, R. (2012). The Impact of the Gut 
-Microbiota on Human Health: An Integrative View. Cell, 148(6), 1258–1270. https://doi.org/10.1016/j.cell.2012.01.035
-
-
-David, L. A., Maurice, C. F., Carmody, R. N., Gootenberg, D. B., Button, J. E., Wolfe, B. E., 
-Ling, A. V., Devlin, A. S., Varma, Y., Fischbach, M. A., Biddinger, S. B., Dutton, R. J., & Turnbaugh, P. J. (2013). Diet rapidly and reproducibly alters the human gut microbiome. Nature, 505(7484), 559–563. https://doi.org/10.1038/nature12820
-
-
-De Filippo, C., Cavalieri, D., Di Paola, M., Ramazzotti, M., Poullet, J. B., Massart, S., Collini, 
-S., Pieraccini, G., & Lionetti, P. (2010). Impact of diet in shaping gut microbiota revealed by a comparative study in children from Europe and rural Africa. Proceedings of the National Academy of Sciences, 107(33), 14691–14696. https://doi.org/10.1073/pnas.1005963107
-
-
-Johnson, A. J., Vangay, P., Al-Ghalith, G. A., Hillmann, B. M., Ward, T. L., Shields-Cutler, 
-R. R., Kim, A. D., Shmagel, A. K., Syed, A. N., Walter, J., Menon, R., Koecher, K., & Knights, D. (2019). Daily Sampling Reveals Personalized Diet-Microbiome Associations in Humans. Cell Host & Microbe, 25(6), 789-802.e5. https://doi.org/10.1016/j.chom.2019.05.005
-
-
-Koeth, R. A., Wang, Z., Levison, B. S., Buffa, J. A., Org, E., Sheehy, B. T., Britt, E. B., Fu, X., 
-Wu, Y., Li, L., Smith, J. D., DiDonato, J. A., Chen, J., Li, H., Wu, G. D., Lewis, J. D., Warrier, M., Brown, J. M., Krauss, R. M., & Tang, W. H. W. (2013). Intestinal Microbiota Metabolism of l-carnitine, a Nutrient in Red meat, Promotes Atherosclerosis. Nature Medicine, 19(5), 576–585. https://doi.org/10.1038/nm.3145
-
-
-Lozupone, C., & Knight, R. (2005). UniFrac: a New Phylogenetic Method for Comparing 
-Microbial Communities. Applied and Environmental Microbiology, 71(12), 8228–8235. https://doi.org/10.1128/aem.71.12.8228-8235.2005
-
-
-Lynch, S. V., & Pedersen, O. (2016). The Human Intestinal Microbiome in Health and Disease. 
-New England Journal of Medicine, 375(24), 2369–2379. https://doi.org/10.1056/NEJMra1600266
-
-
-Narayan, N. R., Weinmaier, T., Laserna-Mendieta, E. J., Claesson, M. J., Shanahan, F., Dabbagh, 
-K., Iwai, S., & DeSantis, T. Z. (2020). Piphillin predicts metagenomic composition and dynamics from DADA2-corrected 16S rDNA sequences. BMC Genomics, 21(1), 56. https://doi.org/10.1186/s12864-019-6427-1
-
-
-Rath, S., Heidrich, B., Pieper, D. H., & Vital, M. (2017). Uncovering the 
-trimethylamine-producing bacteria of the human gut microbiota. Microbiome, 5(1), 54. 
-https://doi.org/10.1186/s40168-017-0271-9 
-
-
-Sonnenburg, J. L., & Bäckhed, F. (2016). Diet–microbiota interactions as moderators of human 
-metabolism. Nature, 535(7610), 56–64. https://doi.org/10.1038/nature18846
-
-
-Talmor-Barkan, Y., & Kornowski, R. (2017). The gut microbiome and cardiovascular risk: 
-Current perspective and gaps of knowledge. Future Cardiology, 13(3), 191–194. https://doi.org/10.2217/fca-2017-0014 
-
-
-Tang, W. H. W., Wang, Z., Levison, B. S., Koeth, R. A., Britt, E. B., Fu, X., Wu, Y., & Hazen, S. 
-L. (2013). Intestinal microbial metabolism of phosphatidylcholine and cardiovascular risk. The New England Journal of Medicine, 368(17), 1575–1584. https://doi.org/10.1056/NEJMoa1109400
-
-
-The Human Microbiome Project | NIH Intramural Research Program. (n.d.). Irp.nih.gov. 
-https://irp.nih.gov/catalyst/21/6/the-human-microbiome-project
-
-
-Turnbaugh, P. J., Ley, R. E., Mahowald, M. A., Magrini, V., Mardis, E. R., & Gordon, J. I. 
-(2006). An obesity-associated Gut Microbiome with Increased Capacity for Energy Harvest. Nature, 444(7122), 1027–1031. https://doi.org/10.1038/nature05414
-
-
-Wang, Z., Klipfell, E., Bennett, B. J., Koeth, R., Levison, B. S., DuGar, B., Feldstein, A. E., 
-Britt, E. B., Fu, X., Chung, Y.-M., Wu, Y., Schauer, P., Smith, J. D., Allayee, H., Tang, W. H. W., DiDonato, J. A., Lusis, A. J., & Hazen, S. L. (2011). Gut flora metabolism of phosphatidylcholine promotes cardiovascular disease. Nature, 472(7341), 57–63. https://doi.org/10.1038/nature09922
-
-
-Wu, G. D., Chen, J., Hoffmann, C., Bittinger, K., Chen, Y.-Y. ., Keilbaugh, S. A., Bewtra, M., 
-Knights, D., Walters, W. A., Knight, R., Sinha, R., Gilroy, E., Gupta, K., Baldassano, R., Nessel, L., Li, H., Bushman, F. D., & Lewis, J. D. (2011). Linking Long-Term Dietary Patterns with Gut Microbial Enterotypes. Science, 334(6052), 105–108. https://doi.org/10.1126/science.1208344
-
-
-Wu, W.-K., Panyod, S., Liu, P.-Y., Chen, C.-C., Kao, H.-L., Chuang, H.-L., Chen, Y.-H., Zou, 
-H.-B., Kuo, H.-C., Kuo, C.-H., Liao, B.-Y., Chiu, T. H. T., Chung, C.-H., Lin, A. Y.-C., Lee, Y.-C., Tang, S.-L., Wang, J.-T., Wu, Y.-W., Hsu, C.-C., … Wu, M.-S. (2020). Characterization of TMAO productivity from carnitine challenge facilitates personalized nutrition and microbiome signatures discovery. Microbiome, 8(1), 162. https://doi.org/10.1186/s40168-020-00912-y 
-
-
-Zhu, Y., Jameson, E., Crosatti, M., Schafer, H., Rajakumar, K., Bugg, T. D. H., & Chen, Y. 
-(2014). Carnitine metabolism to trimethylamine by an unusual Rieske-type oxygenase 
-from human microbiota. Proceedings of the National Academy of Sciences, 111(11), 4268–4273. https://doi.org/10.1073/pnas.1316569111 
-
-</details>
+## References
