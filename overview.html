@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Results – BNFO 420 Capstone</title>
+<title>Overview – BNFO 420 Capstone</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -96,12 +96,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./proposal.html"> 
-<span class="menu-text">Proposal</span></a>
+    <a class="nav-link active" href="./overview.html" aria-current="page"> 
+<span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./results.html" aria-current="page"> 
-<span class="menu-text">Results</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./team.html"> 
@@ -123,8 +123,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-findings" id="toc-key-findings" class="nav-link active" data-scroll-target="#key-findings"><span class="header-section-number">1</span> Key findings</a></li>
-  <li><a href="#figures" id="toc-figures" class="nav-link" data-scroll-target="#figures"><span class="header-section-number">2</span> Figures</a></li>
+  <li><a href="#research-question" id="toc-research-question" class="nav-link active" data-scroll-target="#research-question"><span class="header-section-number">1</span> Research Question</a></li>
+  <li><a href="#hypothesis" id="toc-hypothesis" class="nav-link" data-scroll-target="#hypothesis"><span class="header-section-number">2</span> Hypothesis</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset"><span class="header-section-number">3</span> Dataset</a></li>
+  <li><a href="#methods-pipeline" id="toc-methods-pipeline" class="nav-link" data-scroll-target="#methods-pipeline"><span class="header-section-number">4</span> Methods Pipeline</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings"><span class="header-section-number">5</span> Key Findings</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Results</h1>
+<h1 class="title">Overview</h1>
 </div>
 
 
@@ -150,48 +153,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="key-findings" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="key-findings"><span class="header-section-number">1</span> Key findings</h2>
-<p>Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions</p>
+<section id="research-question" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="research-question"><span class="header-section-number">1</span> Research Question</h2>
+<p>Do vegetarians and omnivores differ in gut microbiota composition and in the relative abundance of bacterial taxa associated with microbial TMA production?</p>
 </section>
-<section id="figures" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="figures"><span class="header-section-number">2</span> Figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/PCoA_Plot_BNFO.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 1</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/Bar_Plot_BNFO.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/Shannon Diversity Plot.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/Shannon Diversity Wilcoxon Test.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 4</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/tma_boxplot_log.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Figure 5</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/tma_presence_bar.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Figure 6</figcaption>
-</figure>
-</div>
+<section id="hypothesis" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="hypothesis"><span class="header-section-number">2</span> Hypothesis</h2>
+<p>Omnivores will have a higher relative abundance of gut microbial taxa associated with microbial TMA production compared to vegetarians.</p>
+</section>
+<section id="dataset" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="dataset"><span class="header-section-number">3</span> Dataset</h2>
+<p>Our data is a collection of 16s rDNA amplicon of human vegetarian. Dataset is obtained from NCBI, and contains multiple 300-301 long DNA sequences for 57 healthy volunteers based on fecal sample. The raw sequences are a collection of 16s rDNA amplicon of human vegetarian/ominovores. We conducted quality control and generation of ASV once we acquired our data, and then assigned taxonomies to each. This was followed by data normalization, diversity analysis, TMA-producing taxa analysis, and visualization of our data. We intend to deliver a collection of figures including a stacked bar plot (to llustrate the bacterial composition of the different diet groups), a boxplot (to compare the relative abundance of TMA-associated bacteria by diet group), an Alpha diversity plot (showcasing diversity analysis (Shannon index) between diet groups), and a PCoA Plot (showcasing visualization of differences between the diet groups based off of their gut bacteria), as well as a collection of tables including one to summarize the samples, one to illustrate levels of TMA-related bacteria, and one to showcasing statistical test results.</p>
+<p>License and usage notes: <a href="https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&amp;from_uid=5605070">Downloaded from publicly available dataset on NCBI</a></p>
+</section>
+<section id="methods-pipeline" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="methods-pipeline"><span class="header-section-number">4</span> Methods Pipeline</h2>
+<ul>
+<li>Data acquistion through NCBI</li>
+<li>Build hypothesis</li>
+<li>Quality control of sequences and ASV generation</li>
+<li>Taxonomic assignment</li>
+<li>Data normalization</li>
+<li>Diversity analysis</li>
+<li>TMA-producing taxa analysis</li>
+<li>Data visualization</li>
+<li>Execution of deliverables</li>
+</ul>
+</section>
+<section id="key-findings" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="key-findings"><span class="header-section-number">5</span> Key Findings</h2>
+<ul>
+<li>No significant variation in alpha and beta diversity between the vegetarian and omnivore diet groups</li>
+<li>No significant differences in relative abundance of TMA-associated bacteria and in presence v. absence of TMA-associated bacteria</li>
+<li>Power analysis indicated that an increase in sample size to n = 171 could show statistical significance in observed trends</li>
+<li>Further study is required to establish a connection between diet and gut microbial composition and diversity, as well as how they influence CVD risk</li>
+</ul>
 
 
 </section>
