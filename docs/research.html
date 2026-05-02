@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/ProjectPipeline.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 1</figcaption>
+<figcaption>Fig. 1.</figcaption>
 </figure>
 </div>
 <p>Sequencing reads were first filtered and trimmed to remove low-quality bases and reads. Reads that exceeded the expected error threshold were excluded from further analysis. Identical sequencing reads were collapsed into unique sequences through dereplication. Error modeling was performed to learn sequencing error rates and amplicon sequence variants (ASV) were inferred through the DADA2 pipeline. An ASV table was generated, grouping identical sequence segments under a header of the same sequence segment and providing a total count. Chimeric sequences were removed and a taxonomical assignment was performed for each ASV using the SILVA database. Results were filtered to a predefined list of known TMA-producing bacteria genera in the gut. Data was normalized to show relative abundance within each of the 57 participant’s samples. The bioinformatics workflow was adapted from the DADA2 pipeline tutorial (Callahan et al.). Data tables generated to show ASVs, their mapped taxa, and dietary information linking both were used to generate figures for analysis and test results for statistical significance.</p>
@@ -183,28 +183,13 @@ ul.task-list li input[type="checkbox"] {
 </summary>
 <p>A number of figures and tables were produced from the aforementioned data tables, including a PCoA plot of gut microbiome samples, an Adonis Test of the PCoA plot, a bar plot of the top genera abundance by diet, a Wilcoxon test of the bar plot, an alpha diversity plot of the diet with a Shannon index, a Wilcoxon test of the alpha diversity plot, a box plot of TMA-associated bacteria abundance by diet, and a bar chart of presence of TMA-associated bacteria by diet. All figures were produced in R.</p>
 <p>The PCoA plot (Fig. 2.) addresses whether or not the overall gut microbiome composition differs between omnivore and vegetarian diets. It is also intended to determine if diet is a major driver of variation in the gut microbiome, and determines the level of microbial variation in all samples. This plot utilizes the Bray-Curtis distance, due to an abnormal distribution of data, to differentiate between omnivore and vegetarian samples based on relative abundance, and their pattern variation. The x-axis of 40.2% and y-axis of 28.9% represent the variation between all samples. The figure showcases ellipses, determining similarities between the two diet groups due to elliptical overlap, and differences due to the lack of complete alignment between both ellipses. Furthermore, the plot supports our research question that diets differ based on gut microbiota.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/PCoA_Plot_BNFO.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2</figcaption>
-</figure>
-</div>
+<p><img src="figures/PCoA_Plot_BNFO.png" class="img-fluid" alt="Fig. 2.a."> <img src="figures/AdonisTest.png" class="img-fluid" alt="Fig 2.b."></p>
 <p>An Adonis Test was conducted, showcasing an f-value representing the differences between two diet groups in relation to the variation within each diet group. Additionally, a p-value was determined to address the statistical significance between diet groups based on the microbiome composition of omnivores and vegetarians. In addition to, determining if the f-value is significant enough to incorporate in our statistical analysis. The Adonis Test resulted in a p-value of 0.95 displaying a value much larger than the 0.05 threshold, determining that the f-value of 56.12 and PCoA plot would display no statistical significance.</p>
 <p>The Stacked Bar Plot (Fig 3.) displays the mean relative abundance of the top three genera, Desulfovibrio, Klebsiella, Proteus, and their estimated differences between both diet groups. As well as error bars representing the standard error of the mean relative abundance for each genera.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/Bar_Plot_BNFO.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3</figcaption>
-</figure>
-</div>
+<p><img src="figures/Bar_Plot_BNFO.png" class="img-fluid" alt="Fig 3.a."> <img src="figures/StackedGeneraWilcoxonTest.png" class="img-fluid" alt="Fig 3.b."></p>
 <p>A Wilcoxon test produced p-values of 0.288 and 0.2864 for Desulfovibrio and Klebsiella, respectively. Neither of these values were statistically significant, as both p-values were much larger than a 0.05 threshold. Proteus was disregarded in the statistical analysis for this plot as its levels were negligible, due to its average mean relative abundance ranging from 0-1. Wilcoxon was preferred over a typical t-test to account for the abnormal distribution of our data.</p>
 <p>The Alpha Diversity Plot (Fig. 4.), generated with a Shannon Index, intends to assess whether diet has an effect on microbiome diversity, and uses the aforementioned index to measure within the sample diversity. The median of the omnivore diet is much higher than the vegetarian, with high variation in outlier number and location. Both diets possess a number of samples at 0.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/Shannon Diversity Plot.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 4</figcaption>
-</figure>
-</div>
+<p><img src="figures/Shannon Diversity Plot.png" class="img-fluid" alt="Fig 4.a."> <img src="figures/Shannon Diversity Wilcoxon Test.png" class="img-fluid" alt="Fig 4.b."></p>
 <p>A Wilcoxon rank-sum test provided a value of 0.1556, indicating that diet does not significantly affect overall microbial diversity.</p>
 <p>The boxplot (Fig. 5.) intends to compare the relative abundance of TMA-associated bacteria by diet. The median of the omnivore diet is larger than the vegetarian diet, but the general spread of either diet appears similar with clustering around the median, and a number of samples at 0. It showcases high variability and overlapping distribution. However, a Wilcoxon test provides a value of 0.1318, indicating a lack of statistical significance.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -237,6 +222,31 @@ ul.task-list li input[type="checkbox"] {
 <strong>Future Work</strong>
 </summary>
 <p>Based on our findings, future research should prioritize studies with larger sample sizes that meet or exceed the minimum value suggested by our power analysis, in order to detect statistically significant differences between the observed trends. Additionally, future studies should account for confounding variables such as age, sex, and BMI to better isolate the effects of diet on gut microbiome composition. Longitudinal study designs that track microbiome changes over time in response to controlled dietary interventions would also strengthen conclusions. While not all future studies may fully account for every confounding variable or dietary factor, prioritizing studies that incorporate direct TMAO measurements alongside microbiome data would help confirm whether omnivores carry a higher relative abundance of TMA-producing bacterial taxa compared to vegetarians. This would also help determine whether the microbial differences observed truly translate into increased cardiovascular disease risk in healthy adult populations.</p>
+</details>
+<details>
+<summary>
+<strong>Citations</strong>
+</summary>
+<p>Callahan, B. J., McMurdie, P. J., Rosen, M. J., Han, A. W., Johnson, A. J. A., &amp; Holmes, S. P. (2016). DADA2: High-resolution sample inference from Illumina amplicon data. Nature Methods, 13(7), 581–583. https://doi.org/10.1038/nmeth.3869</p>
+<p>Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Lozupone, C. A., Turnbaugh, P. J., Fierer, N., &amp; Knight, R. (2010). Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample. Proceedings of the National Academy of Sciences, 108(Supplement_1), 4516–4522. https://doi.org/10.1073/pnas.1000080107‌</p>
+<p>Clemente, Jose C., Ursell, Luke K., Parfrey, L., &amp; Knight, R. (2012). The Impact of the Gut Microbiota on Human Health: An Integrative View. Cell, 148(6), 1258–1270. https://doi.org/10.1016/j.cell.2012.01.035</p>
+<p>David, L. A., Maurice, C. F., Carmody, R. N., Gootenberg, D. B., Button, J. E., Wolfe, B. E., Ling, A. V., Devlin, A. S., Varma, Y., Fischbach, M. A., Biddinger, S. B., Dutton, R. J., &amp; Turnbaugh, P. J. (2013). Diet rapidly and reproducibly alters the human gut microbiome. Nature, 505(7484), 559–563. https://doi.org/10.1038/nature12820</p>
+<p>De Filippo, C., Cavalieri, D., Di Paola, M., Ramazzotti, M., Poullet, J. B., Massart, S., Collini, S., Pieraccini, G., &amp; Lionetti, P. (2010). Impact of diet in shaping gut microbiota revealed by a comparative study in children from Europe and rural Africa. Proceedings of the National Academy of Sciences, 107(33), 14691–14696. https://doi.org/10.1073/pnas.1005963107</p>
+<p>Johnson, A. J., Vangay, P., Al-Ghalith, G. A., Hillmann, B. M., Ward, T. L., Shields-Cutler, R. R., Kim, A. D., Shmagel, A. K., Syed, A. N., Walter, J., Menon, R., Koecher, K., &amp; Knights, D. (2019). Daily Sampling Reveals Personalized Diet-Microbiome Associations in Humans. Cell Host &amp; Microbe, 25(6), 789-802.e5. https://doi.org/10.1016/j.chom.2019.05.005</p>
+<p>Koeth, R. A., Wang, Z., Levison, B. S., Buffa, J. A., Org, E., Sheehy, B. T., Britt, E. B., Fu, X., Wu, Y., Li, L., Smith, J. D., DiDonato, J. A., Chen, J., Li, H., Wu, G. D., Lewis, J. D., Warrier, M., Brown, J. M., Krauss, R. M., &amp; Tang, W. H. W. (2013). Intestinal Microbiota Metabolism of l-carnitine, a Nutrient in Red meat, Promotes Atherosclerosis. Nature Medicine, 19(5), 576–585. https://doi.org/10.1038/nm.3145</p>
+<p>Lozupone, C., &amp; Knight, R. (2005). UniFrac: a New Phylogenetic Method for Comparing Microbial Communities. Applied and Environmental Microbiology, 71(12), 8228–8235. https://doi.org/10.1128/aem.71.12.8228-8235.2005</p>
+<p>Lynch, S. V., &amp; Pedersen, O. (2016). The Human Intestinal Microbiome in Health and Disease. New England Journal of Medicine, 375(24), 2369–2379. https://doi.org/10.1056/NEJMra1600266</p>
+<p>Narayan, N. R., Weinmaier, T., Laserna-Mendieta, E. J., Claesson, M. J., Shanahan, F., Dabbagh, K., Iwai, S., &amp; DeSantis, T. Z. (2020). Piphillin predicts metagenomic composition and dynamics from DADA2-corrected 16S rDNA sequences. BMC Genomics, 21(1), 56. https://doi.org/10.1186/s12864-019-6427-1</p>
+<p>Rath, S., Heidrich, B., Pieper, D. H., &amp; Vital, M. (2017). Uncovering the trimethylamine-producing bacteria of the human gut microbiota. Microbiome, 5(1), 54. https://doi.org/10.1186/s40168-017-0271-9</p>
+<p>Sonnenburg, J. L., &amp; Bäckhed, F. (2016). Diet–microbiota interactions as moderators of human metabolism. Nature, 535(7610), 56–64. https://doi.org/10.1038/nature18846</p>
+<p>Talmor-Barkan, Y., &amp; Kornowski, R. (2017). The gut microbiome and cardiovascular risk: Current perspective and gaps of knowledge. Future Cardiology, 13(3), 191–194. https://doi.org/10.2217/fca-2017-0014</p>
+<p>Tang, W. H. W., Wang, Z., Levison, B. S., Koeth, R. A., Britt, E. B., Fu, X., Wu, Y., &amp; Hazen, S. L. (2013). Intestinal microbial metabolism of phosphatidylcholine and cardiovascular risk. The New England Journal of Medicine, 368(17), 1575–1584. https://doi.org/10.1056/NEJMoa1109400</p>
+<p>The Human Microbiome Project | NIH Intramural Research Program. (n.d.). Irp.nih.gov. https://irp.nih.gov/catalyst/21/6/the-human-microbiome-project</p>
+<p>Turnbaugh, P. J., Ley, R. E., Mahowald, M. A., Magrini, V., Mardis, E. R., &amp; Gordon, J. I. (2006). An obesity-associated Gut Microbiome with Increased Capacity for Energy Harvest. Nature, 444(7122), 1027–1031. https://doi.org/10.1038/nature05414</p>
+<p>Wang, Z., Klipfell, E., Bennett, B. J., Koeth, R., Levison, B. S., DuGar, B., Feldstein, A. E., Britt, E. B., Fu, X., Chung, Y.-M., Wu, Y., Schauer, P., Smith, J. D., Allayee, H., Tang, W. H. W., DiDonato, J. A., Lusis, A. J., &amp; Hazen, S. L. (2011). Gut flora metabolism of phosphatidylcholine promotes cardiovascular disease. Nature, 472(7341), 57–63. https://doi.org/10.1038/nature09922</p>
+<p>Wu, G. D., Chen, J., Hoffmann, C., Bittinger, K., Chen, Y.-Y. ., Keilbaugh, S. A., Bewtra, M., Knights, D., Walters, W. A., Knight, R., Sinha, R., Gilroy, E., Gupta, K., Baldassano, R., Nessel, L., Li, H., Bushman, F. D., &amp; Lewis, J. D. (2011). Linking Long-Term Dietary Patterns with Gut Microbial Enterotypes. Science, 334(6052), 105–108. https://doi.org/10.1126/science.1208344</p>
+<p>Wu, W.-K., Panyod, S., Liu, P.-Y., Chen, C.-C., Kao, H.-L., Chuang, H.-L., Chen, Y.-H., Zou, H.-B., Kuo, H.-C., Kuo, C.-H., Liao, B.-Y., Chiu, T. H. T., Chung, C.-H., Lin, A. Y.-C., Lee, Y.-C., Tang, S.-L., Wang, J.-T., Wu, Y.-W., Hsu, C.-C., … Wu, M.-S. (2020). Characterization of TMAO productivity from carnitine challenge facilitates personalized nutrition and microbiome signatures discovery. Microbiome, 8(1), 162. https://doi.org/10.1186/s40168-020-00912-y</p>
+<p>Zhu, Y., Jameson, E., Crosatti, M., Schafer, H., Rajakumar, K., Bugg, T. D. H., &amp; Chen, Y. (2014). Carnitine metabolism to trimethylamine by an unusual Rieske-type oxygenase from human microbiota. Proceedings of the National Academy of Sciences, 111(11), 4268–4273. https://doi.org/10.1073/pnas.1316569111</p>
 </details>
 
 
