@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "team.html#members",
+    "href": "team.html#members",
+    "title": "Team 2",
+    "section": "2 Members",
+    "text": "2 Members\n\nName 1 — Divya Spurthi Amancherla - data cleaning, EDA, data modeling\nName 2 — Niya Kedir - Final Figure Generation\nName 3 — Shubeeb Rudd - data acquisition, writing, final figure generation\nName 4 — Sean Yoo - Final Figure Generation"
+  },
+  {
+    "objectID": "team.html#collaboration-rules-simple",
+    "href": "team.html#collaboration-rules-simple",
+    "title": "Team 2",
+    "section": "3 Collaboration rules (simple)",
+    "text": "3 Collaboration rules (simple)\n\nPull before you start work.\nCommit small changes with clear messages.\nOnly one person edits the same .qmd file at a time.\nUse Issues (optional) for tasks/bugs."
+  },
+  {
     "objectID": "proposal.html",
     "href": "proposal.html",
     "title": "Proposal",
@@ -35,41 +49,6 @@
     "text": "4 Deliverables\n\nPCoA Plot: Community-level differences between diet groups\nStacked bar plot: Microbial composition by diet group\nShannon Diversity Plot: Within-sample diversity across diet groups\nBoxplot: Relative abundance of TMA-associated bacteria by diet\nBar Chart: Absence v. Presence of TMA-associated bacteria by diet"
   },
   {
-    "objectID": "results.html",
-    "href": "results.html",
-    "title": "Results",
-    "section": "",
-    "text": "Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions"
-  },
-  {
-    "objectID": "results.html#key-findings-draft",
-    "href": "results.html#key-findings-draft",
-    "title": "Results",
-    "section": "",
-    "text": "Add bullet points as you go."
-  },
-  {
-    "objectID": "results.html#figures",
-    "href": "results.html#figures",
-    "title": "Results",
-    "section": "2 Figures",
-    "text": "2 Figures\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6"
-  },
-  {
-    "objectID": "team.html#members",
-    "href": "team.html#members",
-    "title": "Team 2",
-    "section": "2 Members",
-    "text": "2 Members\n\nName 1 — Divya Spurthi Amancherla - data cleaning, EDA, data modeling\nName 2 — Niya Kedir - Final Figure Generation\nName 3 — Shubeeb Rudd - data acquisition, writing, final figure generation\nName 4 — Sean Yoo - Final Figure Generation"
-  },
-  {
-    "objectID": "team.html#collaboration-rules-simple",
-    "href": "team.html#collaboration-rules-simple",
-    "title": "Team 2",
-    "section": "3 Collaboration rules (simple)",
-    "text": "3 Collaboration rules (simple)\n\nPull before you start work.\nCommit small changes with clear messages.\nOnly one person edits the same .qmd file at a time.\nUse Issues (optional) for tasks/bugs."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The Effect of Omnivorous v. Vegetarian Diet on Gut Microbiota Diversity and the Abundance of TMA-Producing Bacteria in the Human Gut Microbiome",
@@ -98,10 +77,24 @@
     "text": "3 Where to find everything\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
   },
   {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "Results",
+    "section": "",
+    "text": "Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions"
+  },
+  {
     "objectID": "results.html#key-findings",
     "href": "results.html#key-findings",
     "title": "Results",
     "section": "",
     "text": "Our results indicated that there was no significant variation in Shannon diversity as well as the microbial composition between the two dietary groups. However, the box plot and bar chart demonstrated differences in TMA-producing taxa, with omnivores showing higher abundance, suggesting that diet may influence certain microbial functions"
+  },
+  {
+    "objectID": "results.html#figures",
+    "href": "results.html#figures",
+    "title": "Results",
+    "section": "2 Figures",
+    "text": "2 Figures\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6"
   }
 ]
